@@ -15,6 +15,8 @@ This project was born out of a deep childhood curiosity for physics and mathemat
 * **Rendering Layer:** A decoupled TUI loop that reads the macroscopic grid and maps velocity magnitudes to ASCII densities with a colorblind-safe dark blue→cyan→yellow heatmap (dark blue = slow, yellow = fast).
 * **Input Handling:** An asynchronous event listener that captures mouse clicks and key presses to dynamically mutate the grid state (e.g., painting obstacles).
 
+Separate [Archicture documentation here](.\docs\ARCHITECTURE.md)
+
 ## Dependencies
 
 * `rust` = "1.93.1" (Rust Edition 2024)
